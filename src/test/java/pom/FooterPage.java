@@ -4,8 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import Utils.BaseClass;
 
-public class FooterPage {
+public class FooterPage extends BaseClass {
     WebDriver driver;
 
     //NUESTRA COMPAÑÍA
@@ -86,5 +87,79 @@ public class FooterPage {
         this.driver = driver;
     }
 
+    //Nuestra Compañia
+    public void irMenuQuienesSomos() { click(linkQuienesSomos);
+    }
+
+    public void irMenuHistoria() {
+        click(linkHistoria);
+    }
+
+    public void irMenuQueHacemos() {
+        click(linkQueHacemos);
+    }
+
+    public void irMenuNoticiasTbk() {
+        click(linkNoticias);
+    }
+
+    public void irMenuTrabajaConNosotros() {
+        click(linkTrabajaConNosotros);
+    }
+
+    //Gobierno Corporativo
+
+    public void irMenuDirectorio() {
+        click(linkDirectorio);
+    }
+
+    public void irMenuAdministracion() {
+        click(linkAdministracion);
+    }
+
+    public void irMenuAccionistas() {
+        click(linkAccionistas);
+    }
+
+    public void irMenuJuntaAccionistas() {
+        click(linkJuntaAccionistas);
+    }
+
+    //Relacion Inversionistas
+    public void irMenuEstadosFinancieros() {
+        click(linkEstadosFinancieros);
+    }
+    public void irMenuMemoriasAnuales() {
+        click(linkMemoriasAnuales);
+    }
+    public void irMenuEmisionDeudaPublica() {
+        click(linkEmisionDeudaPublica);
+    }
+    public void irMenuContactoInversionista() {
+        click(linkContactoInversionista);
+    }
+    //Sostenibilidad
+    public void irMenuReporteSostenibilidad() {
+        click(linkReporteSostenibilidad);
+    }
+    //seccion de interes
+    public void irMenuOnepay() {
+        click(linkOnepay);
+    }
+    public void irMenuTransnews() {
+        click(linkTransnews);
+    }
+    public void irMenuTransbankDeveloper() {
+        click(linkTransbankDeveloper);
+    }
+    public void irMenuServiciosTarifas() {
+        click(linkServiciosTarifas);
+    }
+    public void irMenuContratos() {
+        click(linkContratos);
+    }
+    public void irMenuCanalDenuncias() {
+        click(linkCanalDenuncias);
+    }
 
 }
