@@ -2,6 +2,7 @@ package Utils;
 
 //La clase base define las acciones de selenium (Wrapper)
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +13,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.ArrayList;
 
 public class BaseClass {
     //Atributos
@@ -101,6 +104,20 @@ public class BaseClass {
         return wait.until(ExpectedConditions.visibilityOf(elemento));
     }
 
+    public void validarTextoElemento(String textoEsperado, WebElement element){
+        try{
+            Assert.assertEquals(element.getText().trim(), textoEsperado);
+        }catch (AssertionError e){
+            Assert.fail(e.toString());
+        }
+    }
+    public void validarVistaPagina(String tituloPagina){
+        try {
+            Assert.assertEquals(tituloPagina,this.driver.getTitle());
+        } catch (Exception e) {
+            Assert.fail(e.toString());
+        }
+    }
 
 
     //click
@@ -154,6 +171,16 @@ public class BaseClass {
         this.driver.quit();
     }
 
+    public void changeTab() {
+        try {
+            esperarXSegundos(5);
+            ArrayList<String> newTb = new ArrayList<>(this.driver.getWindowHandles());
+            this.driver.switchTo().window(newTb.get(1));
+        } catch(Exception exception){
+            Assert.fail(exception.toString());
+        }
+    }
 }
+
 
 
