@@ -17,11 +17,8 @@ public class BaseClass {
     //Atributos
     protected WebDriver driver;
     protected JavascriptExecutor js;
-
     protected WebDriverWait wait;
-
     protected Select select;
-
     public WebDriver getDriver() {
         return driver;
     }
