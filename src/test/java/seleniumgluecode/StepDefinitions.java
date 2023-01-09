@@ -9,6 +9,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import pom.FooterPage;
 import pom.HomePage;
 
 public class StepDefinitions {
@@ -16,6 +17,7 @@ public class StepDefinitions {
 
     //Atributos
     HomePage homePage;
+    FooterPage footerPage;
 
     @After
     public void quitDriver() {
@@ -29,6 +31,7 @@ public class StepDefinitions {
         System.setProperty("webdriver.chrome.driver",rutaDriver);
         driver = new ChromeDriver();
         homePage= PageFactory.initElements(driver,HomePage.class);
+        footerPage= PageFactory.initElements(driver,FooterPage.class);
         homePage.cargarPagina("https://publicoqa.transbank.cl/");
         homePage.maximizarBrowser();
     }
@@ -276,10 +279,18 @@ public class StepDefinitions {
         }
     }
 
-
     @Then("Se despliega nueva pestaña APP tbk")
     public void seDespliegaNuevaPestañaAPPTbkAppTransbankVentasYAbonosEnAppStore() {
             homePage.validarCargaAppIos();
+    }
+
+    @When("Presiono menu Quienes Somos desde footer")
+    public void presionoMenuQuienesSomosDesdeFooter() {
+        try {
+            footerPage.irMenuQueHacemos();
+        } catch (Exception e) {
+            Assert.fail(e.toString());
+        }
 
     }
 }
