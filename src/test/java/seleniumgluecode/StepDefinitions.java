@@ -1,5 +1,6 @@
 package seleniumgluecode;
 
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,10 +17,15 @@ public class StepDefinitions {
     //Atributos
     HomePage homePage;
 
+    @After
+    public void quitDriver() {
+        driver.quit();
+    }
+
     //Given Estoy en el sitio https://publico.transbank.cl/
     @Given("Se abre portal publico en navegador Google Chrome")
     public void Se_abre_portal_publico_navegador_Google_Chrome() {
-        String rutaDriver = System.getProperty("user.dir")+ "src/test/resources/driver/chromedriver";
+        String rutaDriver = System.getProperty("user.dir")+ "/src/test/resources/drivers/chromedriver";
         System.setProperty("webdriver.chrome.driver",rutaDriver);
         driver = new ChromeDriver();
         homePage= PageFactory.initElements(driver,HomePage.class);
@@ -102,7 +108,6 @@ public class StepDefinitions {
     @When("Presiono Link quiero ver detalle del producto Webpay")
     public void presionoLinkQuieroVerDetalleDelProductoWebpay() {
         try {
-
             homePage.irLandingWebpay();
         } catch (Exception e) {
             Assert.fail(e.toString());
@@ -272,4 +277,9 @@ public class StepDefinitions {
     }
 
 
+    @Then("Se despliega nueva pestaña APP tbk")
+    public void seDespliegaNuevaPestañaAPPTbkAppTransbankVentasYAbonosEnAppStore() {
+            homePage.validarCargaAppIos();
+
+    }
 }
