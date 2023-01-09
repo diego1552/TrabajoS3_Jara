@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import pom.FooterPage;
 import pom.HomePage;
+import pom.QuienesSomosPage;
 
 public class StepDefinitions {
     public WebDriver driver;
@@ -18,7 +19,7 @@ public class StepDefinitions {
     //Atributos
     HomePage homePage;
     FooterPage footerPage;
-
+    QuienesSomosPage quienesSomosPage;
     @After
     public void quitDriver() {
         driver.quit();
@@ -32,6 +33,7 @@ public class StepDefinitions {
         driver = new ChromeDriver();
         homePage= PageFactory.initElements(driver,HomePage.class);
         footerPage= PageFactory.initElements(driver,FooterPage.class);
+        quienesSomosPage= PageFactory.initElements(driver,QuienesSomosPage.class);
         homePage.cargarPagina("https://publicoqa.transbank.cl/");
         homePage.maximizarBrowser();
     }
@@ -292,5 +294,32 @@ public class StepDefinitions {
             Assert.fail(e.toString());
         }
 
+    }
+
+    @Then("Se despliega contenido de la pagina Quienes Somos correctamente")
+    public void seDespliegaContenidoDeLaPaginaQuienesSomosCorrectamente() {
+        try {
+            quienesSomosPage.validarDespliegueContenido();
+        } catch (Exception e) {
+            Assert.fail(e.toString());
+        }
+    }
+
+    @Then("Se despliega tres cards sobre mision, proposito y sueño")
+    public void seDespliegaTresCardsSobreMisionPropositoYSueño() {
+        try {
+            quienesSomosPage.validarDespliegueCards();
+        } catch (Exception e) {
+            Assert.fail(e.toString());
+        }
+    }
+
+    @Then("Se despliega pagina quienes somos correctamente")
+    public void seDespliegaPaginaQuienesSomosCorrectamente() {
+        try {
+            quienesSomosPage.validarDesplieguePagina();
+        } catch (Exception e) {
+            Assert.fail(e.toString());
+        }
     }
 }
