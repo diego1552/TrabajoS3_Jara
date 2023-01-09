@@ -289,7 +289,7 @@ public class StepDefinitions {
     @When("Presiono menu Quienes Somos desde footer")
     public void presionoMenuQuienesSomosDesdeFooter() {
         try {
-            footerPage.irMenuQueHacemos();
+            footerPage.irMenuQuienesSomos();
         } catch (Exception e) {
             Assert.fail(e.toString());
         }
