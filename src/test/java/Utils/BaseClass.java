@@ -85,7 +85,7 @@ public class BaseClass {
     //Espera por X segundos
     public void esperarXSegundos(int milisegundos){
         try{
-            Thread.sleep(milisegundos);
+            Thread.sleep(milisegundos*1000);
         }catch (Exception ex){
             System.out.println("Fallo la espera en milisegundos definida.");
         }
@@ -112,11 +112,11 @@ public class BaseClass {
         }
     }
     public void validarVistaPagina(String tituloPagina){
-        try {
-            Assert.assertEquals(tituloPagina,this.driver.getTitle());
-        } catch (Exception e) {
-            Assert.fail(e.toString());
-        }
+        Assert.assertEquals(tituloPagina,this.driver.getTitle());
+    }
+
+    public void validarNoVistaPagina(String tituloPagina){
+        Assert.assertNotEquals(tituloPagina,this.driver.getTitle());
     }
 
 

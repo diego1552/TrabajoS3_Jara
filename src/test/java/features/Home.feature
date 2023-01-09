@@ -80,7 +80,7 @@ Feature: Home Portal Publico
   Scenario: Validar Seccion descarga la app Apple store
     Given Se abre portal publico en navegador Google Chrome
     When Presiono boton descarga por App Store
-    Then Se despliega nueva pestaña con titulo App Transbank: ventas y abonos en App Store
+    Then Se despliega nueva pestaña APP tbk
 
     #Seccion Lo que tu negocio Necesita
   Scenario: Validar despliegue seccion Lo que tu negocio Necesita

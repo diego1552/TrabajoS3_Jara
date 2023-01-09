@@ -136,8 +136,7 @@ public class HomePage extends BaseClass {
     }
 
     public void irLandingWebpay(){
-        
-        click(btnWebpay);
+        click(esperarAElementoWeb(btnWebpay));
     }
 
     public void irLandingWix(){
@@ -189,8 +188,8 @@ public class HomePage extends BaseClass {
         click(btnAppStore);
     }
 
-    public void validarCargaLandingProducto(String titlePage) throws InterruptedException {
-        esperarXSegundos(3);
+    public void validarCargaLandingProducto(String titlePage){
+        esperarXSegundos(5);
         validarVistaPagina(titlePage);
     }
 
@@ -247,4 +246,9 @@ public class HomePage extends BaseClass {
     }
 
 
+    public void validarCargaAppIos() {
+        esperarXSegundos(3);
+        changeTab();
+        validarNoVistaPagina("Inicio - Portal Publico - QA1 Transbank");
+    }
 }
