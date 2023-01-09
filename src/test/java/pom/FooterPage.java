@@ -81,11 +81,10 @@ public class FooterPage extends BaseClass {
 
 
     //Metodos
-
     public FooterPage(WebDriver driver) {
-        PageFactory.initElements(driver, this);
-        this.driver = driver;
+        super(driver);
     }
+
 
     //Nuestra Compañia
     public void irMenuQuienesSomos() { click(linkQuienesSomos);
