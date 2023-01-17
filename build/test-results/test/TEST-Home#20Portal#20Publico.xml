@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Home Portal Publico" tests="21" skipped="0" failures="21" errors="0" timestamp="2023-01-09T17:45:40" hostname="ip-192-168-100-4.ec2.internal" time="0.811">
+  <properties/>
+  <testcase name="Validar despliegue seccion Hero" classname="Home Portal Publico" time="0.225">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:8)
+</failure>
+  </testcase>
+  <testcase name="Validar despliegue landing Hero" classname="Home Portal Publico" time="0.021">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:12)
+</failure>
+  </testcase>
+  <testcase name="Validar Funcion Banner Home 1" classname="Home Portal Publico" time="0.043">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:18)
+</failure>
+  </testcase>
+  <testcase name="Validar Funcion Banner Home 2" classname="Home Portal Publico" time="0.029">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:23)
+</failure>
+  </testcase>
+  <testcase name="Validar Funcion Banner Home 3" classname="Home Portal Publico" time="0.024">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:28)
+</failure>
+  </testcase>
+  <testcase name="Validar despliegue seccion Tu eliges como vender" classname="Home Portal Publico" time="0.041">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:34)
+</failure>
+  </testcase>
+  <testcase name="Validar funcion tu elijes como vender Webpay" classname="Home Portal Publico" time="0.014">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:38)
+</failure>
+  </testcase>
+  <testcase name="Validar funcion tu elijes como vender Wix" classname="Home Portal Publico" time="0.014">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:43)
+</failure>
+  </testcase>
+  <testcase name="Validar funcion tu elijes como vender WebpayCL" classname="Home Portal Publico" time="0.024">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:48)
+</failure>
+  </testcase>
+  <testcase name="Validar funcion tu elijes como vender PosMovil" classname="Home Portal Publico" time="0.041">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:53)
+</failure>
+  </testcase>
+  <testcase name="Validar funcion tu elijes como vender MobilePos" classname="Home Portal Publico" time="0.051">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:59)
+</failure>
+  </testcase>
+  <testcase name="Validar funcion tu elijes como vender CobroQR" classname="Home Portal Publico" time="0.027">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:65)
+</failure>
+  </testcase>
+  <testcase name="Validar despliegue seccion Descarga la APP" classname="Home Portal Publico" time="0.055">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:72)
+</failure>
+  </testcase>
+  <testcase name="Validar Seccion descarga la app google Play" classname="Home Portal Publico" time="0.02">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:76)
+</failure>
+  </testcase>
+  <testcase name="Validar Seccion descarga la app Apple store" classname="Home Portal Publico" time="0.038">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:81)
+</failure>
+  </testcase>
+  <testcase name="Validar despliegue seccion Lo que tu negocio Necesita" classname="Home Portal Publico" time="0.05">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:87)
+</failure>
+  </testcase>
+  <testcase name="Validar funcion Tenemos lo que necesitas MobilePos" classname="Home Portal Publico" time="0.015">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:91)
+</failure>
+  </testcase>
+  <testcase name="Validar funcion Tenemos lo que necesitas PosMovil" classname="Home Portal Publico" time="0.018">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:96)
+</failure>
+  </testcase>
+  <testcase name="VValidar funcion Tenemos lo que necesitas Wix" classname="Home Portal Publico" time="0.012">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:101)
+</failure>
+  </testcase>
+  <testcase name="Validar funcion Tenemos lo que necesitas WebpayPlus" classname="Home Portal Publico" time="0.026">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:107)
+</failure>
+  </testcase>
+  <testcase name="Validar funcion Tenemos lo que necesitas WebpayCL" classname="Home Portal Publico" time="0.017">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/diego/Selenium/Trabajo Cucumber /TrabajoS3_Jarasrc/test/resources/driver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at seleniumgluecode.StepDefinitions.Se_abre_portal_publico_navegador_Google_Chrome(StepDefinitions.java:24)
+	at ✽.Se abre portal publico en navegador Google Chrome(file:///Users/diego/Selenium/Trabajo%20Cucumber%20/TrabajoS3_Jara/src/test/java/features/Home.feature:113)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
